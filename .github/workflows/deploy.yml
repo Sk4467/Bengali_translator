@@ -16,3 +16,4 @@ jobs:
       uses: huggingface/github-action-deploy-spaces@main
       with:
         hf_token: ${{ secrets.HF_TOKEN }}
+        
