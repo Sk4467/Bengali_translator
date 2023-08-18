@@ -1,5 +1,6 @@
 streamlit
 transformers
-torch==1.9.0
+torch==1.9.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
 torchvision==0.10.0
 torchaudio==0.9.0
+pip==23.2.1
