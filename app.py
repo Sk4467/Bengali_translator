@@ -10,6 +10,7 @@ st.title("English to Bengali Translation")
 
 # User input
 english_text = st.text_area("Enter English text:", "")
+st.button("Submit")
 
 if english_text:
     # Encode the text and generate translation
@@ -20,4 +21,4 @@ if english_text:
     # Display the translation
     st.write("Bengali Translation:")
     st.write(bengali_translation)
-
+st.caption("Made with ❤ ")
