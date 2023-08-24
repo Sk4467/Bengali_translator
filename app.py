@@ -21,4 +21,4 @@ if english_text:
     # Display the translation
     st.write("Bengali Translation:")
     st.write(bengali_translation)
-st.caption("Made with ❤ ")
+st.caption("Made with ❤ by Chad ")
